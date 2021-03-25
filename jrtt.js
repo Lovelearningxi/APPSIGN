@@ -53,9 +53,9 @@ jrtt = type=cron,cronexp="5,35 8-23 * * *",wake-system=1,script-path=https://raw
 const jsname='今日头条极速版'
 const $ = Env(jsname)
 const notify = $.isNode() ?require('./sendNotify') : '';
-const signurlArr = [202103251716560101511921375000F9D4],signkeyArr=[00-68ac0afa09ca72556e7204fc25340023-68ac0afa09ca7255-01]
-const farmurlArr = [202103251716560101511921375000F9D4],farmkeyArr=[00-68ac0afa09ca72556e7204fc25340023-68ac0afa09ca7255-01]
-const readurlArr = [202103251716560101511921375000F9D4],readkeyArr=[00-68ac0afa09ca72556e7204fc25340023-68ac0afa09ca7255-01]
+const signurlArr = [3ef961a39846ad9ca031a8153410c335],signkeyArr=[00-68ac0afa09ca72556e7204fc25340023-68ac0afa09ca7255-01]
+const farmurlArr = [3ef961a39846ad9ca031a8153410c335],farmkeyArr=[00-68ac0afa09ca72556e7204fc25340023-68ac0afa09ca7255-01]
+const readurlArr = [3ef961a39846ad9ca031a8153410c335],readkeyArr=[00-68ac0afa09ca72556e7204fc25340023-68ac0afa09ca7255-01]
 let signurl = $.getdata('signurl')
 let signkey = $.getdata('signkey')
 
